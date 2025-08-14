@@ -9,11 +9,11 @@ int main() {
     printf("Prime numbers between 1 and %d are:\n", N);
 
     for (i = 2; i <= N; i++) {
-        isPrime = 1; // Assume the number is prime
+        isPrime = 1; 
 
         for (j = 2; j * j <= i; j++) {
             if (i % j == 0) {
-                isPrime = 0; // Not a prime number
+                isPrime = 0; 
                 break;
             }
         }
@@ -27,3 +27,4 @@ int main() {
 
     return 0;
 }
+
